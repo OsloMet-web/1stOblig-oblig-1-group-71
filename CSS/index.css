@@ -107,17 +107,58 @@ body {
 }
 
 .ossBox {
-    width: 25rem;
+    width: 100%;
     margin-top: 4rem;
     text-align: left;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.col1 {
+    width: 50%;
+}
+
+.col2 {
+    padding-left: 3rem;
+}
+
+
+
+.persBox {
+    width: 20rem;
 }
 
 h2 {
     font-weight: 1000;
     font-size: 1.8rem;
-    
+
 }
 
 p {
     font-size: 1.2rem;
+}
+
+.divEn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divTo {
+    background-color: red;
+    height: 10rem;
+    width: 10rem;
+}
+
+.divTo1 {
+    background-color: blue;
+    height: 10rem;
+    width: 10rem;
 }
