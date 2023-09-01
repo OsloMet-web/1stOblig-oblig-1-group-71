@@ -45,7 +45,7 @@ body {
 }
 
 .box:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
 
 }
 
@@ -76,4 +76,48 @@ body {
 
 .lesMer:active {
     transform: scale(1);
+}
+
+body {
+    margin: 5rem 13rem 5rem 13rem;
+    background-color: aliceblue;
+}
+
+.topBox {
+    display: flex;
+    border-bottom: solid 3px black;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 10rem;
+    transition: opacity .1s ease;
+}
+
+.logo:hover {
+    opacity: .8;
+}
+
+.logo:active {
+    opacity: .4;
+}
+
+.header {
+    font-size: 5rem;
+}
+
+.ossBox {
+    width: 25rem;
+    margin-top: 4rem;
+    text-align: left;
+}
+
+h2 {
+    font-weight: 1000;
+    font-size: 1.8rem;
+    
+}
+
+p {
+    font-size: 1.2rem;
 }
