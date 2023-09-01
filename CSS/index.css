@@ -133,6 +133,15 @@ body {
 
 .persBox {
     width: 20rem;
+    height: 14rem;
+    padding: 1rem;
+    border-radius: 20px;
+    transition: box-shadow .3s ease;
+
+}
+
+.persBox:hover {
+    box-shadow: grey 2px 1px 7px;
 }
 
 h2 {
