@@ -1,0 +1,173 @@
+.headLine {
+    font-size: 6rem;
+
+}
+
+strong {
+    font-weight: 1000;
+    color: red;
+}
+
+.underHeader {
+    font-size: 2.8rem;
+}
+
+body {
+    margin: 0 9rem 0 9rem;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.boxes {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.box {
+    width: 18rem;
+    margin: auto;
+    font-size: 1.7rem;
+    height: 17rem;
+    box-shadow: black 4px 4px 10px;
+    border-radius: 20px;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+    background-color: white;
+}
+
+.p_box {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin: 0 1.2rem 0 1.2rem;
+    text-align: start;
+}
+
+.box:hover {
+    transform: scale(1.05);
+
+}
+
+.box:active {
+    transform: scale(0.9);
+}
+
+.lesMer {
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    font-size: 4rem;
+    background-color: white;
+    border: none;
+    box-shadow: black 4px 6px 10px;
+    width: 23rem;
+    height: 7rem;
+    border-radius: 20px;
+    transition: border .8s ease, transform .3s ease;
+
+}
+
+.lesMer:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    border: dotted black 2px;
+
+}
+
+.lesMer:active {
+    transform: scale(1);
+}
+
+body {
+    margin: 5rem 13rem 5rem 13rem;
+    background-color: aliceblue;
+}
+
+.topBox {
+    display: flex;
+    border-bottom: solid 3px black;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 10rem;
+    transition: opacity .1s ease;
+}
+
+.logo:hover {
+    opacity: .8;
+}
+
+.logo:active {
+    opacity: .4;
+}
+
+.header {
+    font-size: 5rem;
+}
+
+.ossBox {
+    width: 100%;
+    margin-top: 4rem;
+    text-align: left;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.col1 {
+    width: 50%;
+}
+
+.col2 {
+    padding-left: 3rem;
+}
+
+
+
+.persBox {
+    width: 20rem;
+    height: 14rem;
+    padding: 1rem;
+    border-radius: 20px;
+    transition: box-shadow .3s ease;
+
+}
+
+.persBox:hover {
+    box-shadow: grey 2px 1px 7px;
+}
+
+h2 {
+    font-weight: 1000;
+    font-size: 1.8rem;
+
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.divEn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divTo {
+    background-color: red;
+    height: 10rem;
+    width: 10rem;
+}
+
+.divTo1 {
+    background-color: blue;
+    height: 10rem;
+    width: 10rem;
+}
